@@ -51,9 +51,9 @@ def calcularNota():
     nota_final = promedio_alumno * 0.55 + examen_alumno * 0.3 + trabajo_alumno * 0.15
 
     promedio['text'] = 'Promedio'
-    nota_prom['text'] = f'{promedio_alumno:.2f}'
+    nota_prom['text'] = f'{promedio_alumno:.1f}'
     notaFinal['text'] = 'Nota Final'
-    final['text'] = f'{nota_final:.2f}'
+    final['text'] = f'{nota_final:.1f}'
 
 
 notaFinal = Label(ventana)
